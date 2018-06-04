@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane id="rootAnchorPane" prefHeight="250.0" prefWidth="400.0" stylesheets="@../styles/alertview.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.casino.bumchums.casino.controller.AlertViewController">
+   <children>
+      <ImageView fx:id="closeView" fitHeight="25.0" fitWidth="25.0" onMouseClicked="#onCloseAction" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@../images/close_white.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="cancelButton" focusTraversable="false" layoutX="320.0" layoutY="198.0" onAction="#handleCancelAction" text="Cancel" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+      <JFXButton fx:id="okayButton" focusTraversable="false" layoutX="249.0" layoutY="203.0" onAction="#handleOkAction" text="Okay" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="100.0" />
+      <Label fx:id="titleLabel" layoutX="85.0" layoutY="79.0" styleClass="title" text="Title" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="40.0" />
+      <TextFlow fx:id="contentFlow" layoutX="50.0" layoutY="70.0" prefHeight="106.0" prefWidth="300.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="80.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="898.0" prefWidth="1295.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.casino.bumchums.casino.Bingo.BingoMainViewController">
+   <children>
+      <ImageView fitHeight="1002.0" fitWidth="1585.0" layoutX="-47.0" layoutY="-92.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Bingo/Gray-Patterns.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="card2Pane" layoutX="43.0" layoutY="277.0" prefHeight="401.0" prefWidth="404.0">
+         <children>
+            <ImageView fitHeight="412.0" fitWidth="415.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/Bingo/BingoKarteee.png" />
+               </image>
+               <effect>
+                  <DropShadow color="#000000d5" height="96.07" offsetX="10.0" offsetY="-10.0" radius="50.815" width="109.19" />
+               </effect>
+            </ImageView>
+            <VBox fx:id="vBox1" layoutX="52.0" layoutY="89.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="283.0" prefWidth="300.0">
+               <children>
+                  <HBox fx:id="bingoCard1HBoxColumn12" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0">
+                     <children>
+                        <Rectangle fx:id="square002" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square102" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square202" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="61.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square302" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square402" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox fx:id="bingoCard1HBoxColumn22" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0">
+                     <children>
+                        <Rectangle fx:id="square012" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square112" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square212" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square312" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square412" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox fx:id="bingoCard1HBoxColumn32" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0">
+                     <children>
+                        <Rectangle fx:id="square022" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square122" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square222" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square322" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square422" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox fx:id="bingoCard1HBoxColumn42" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0">
+                     <children>
+                        <Rectangle fx:id="square042" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square132" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square232" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square332" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square432" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox fx:id="bingoCard1HBoxColumn52" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square142" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square242" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square342" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square442" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox fx:id="mainCard2VBox" layoutX="52.0" layoutY="90.0" prefHeight="301.0" prefWidth="300.0">
+               <children>
+                  <HBox fx:id="mainCard2HBox" prefHeight="59.0" prefWidth="300.0" />
+                  <HBox fx:id="mainCard2HBox2" prefHeight="60.0" prefWidth="300.0" />
+                  <HBox fx:id="mainCard2HBox3" prefHeight="60.0" prefWidth="300.0" />
+                  <HBox fx:id="mainCard2HBox4" prefHeight="60.0" prefWidth="300.0" />
+                  <HBox fx:id="mainCard2HBox5" prefHeight="60.0" prefWidth="300.0" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+      <Pane fx:id="card1Pane" layoutX="44.0" layoutY="274.0" prefHeight="401.0" prefWidth="404.0" visible="false">
+         <children>
+            <ImageView fitHeight="412.0" fitWidth="415.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/Bingo/BingoKarteee.png" />
+               </image>
+               <effect>
+                  <DropShadow color="#000000d5" height="96.07" offsetX="10.0" offsetY="-10.0" radius="50.815" width="109.19" />
+               </effect>
+            </ImageView>
+            <VBox fx:id="vBox" layoutX="52.0" layoutY="89.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="283.0" prefWidth="300.0">
+               <children>
+                  <HBox fx:id="bingoCard1HBoxColumn1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0">
+                     <children>
+                        <Rectangle fx:id="square00" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square20" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="61.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square30" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square40" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox fx:id="bingoCard1HBoxColumn2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0">
+                     <children>
+                        <Rectangle fx:id="square01" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square21" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square31" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square41" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox fx:id="bingoCard1HBoxColumn3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0">
+                     <children>
+                        <Rectangle fx:id="square02" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square22" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square32" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square42" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox fx:id="bingoCard1HBoxColumn4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0">
+                     <children>
+                        <Rectangle fx:id="square04" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square23" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square33" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square43" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox fx:id="bingoCard1HBoxColumn5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square24" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square34" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                        <Rectangle fx:id="square44" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox fx:id="mainCardVBox" layoutX="52.0" layoutY="90.0" prefHeight="301.0" prefWidth="300.0">
+               <children>
+                  <HBox prefHeight="61.0" prefWidth="300.0" />
+                  <HBox fx:id="mainCardHBox" prefHeight="60.0" prefWidth="300.0" />
+                  <HBox prefHeight="61.0" prefWidth="300.0" />
+                  <HBox prefHeight="61.0" prefWidth="300.0" />
+                  <HBox prefHeight="59.0" prefWidth="300.0" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+      <Text fill="WHITE" layoutX="46.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME TO BINGO" textAlignment="CENTER" wrappingWidth="431.533448189497">
+         <font>
+            <Font name="Oswald Regular" size="52.0" />
+         </font>
+         <effect>
+            <Glow level="0.79" />
+         </effect>
+      </Text>
+      <Button fx:id="btnBingo" layoutX="514.0" layoutY="811.0" mnemonicParsing="false" onAction="#clickBingo" prefHeight="45.0" prefWidth="232.0" style="-fx-background-color: #52b366;" text="I HAVE BINGO!" textFill="WHITE">
+         <font>
+            <Font name="Oswald Regular" size="20.0" />
+         </font></Button>
+      <Label fx:id="lblAccount" layoutX="632.0" layoutY="6.0" text="Account balance" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblName" layoutX="498.0" layoutY="7.0" text="Your Name" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="114.0" layoutY="178.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="654.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="448.79998779296875" minWidth="10.0" prefWidth="447.20001220703125" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="315.199951171875" minWidth="10.0" prefWidth="279.5999877929687" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="The next bingo ball draws in..." wrappingWidth="277.435546875" GridPane.halignment="LEFT">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <effect>
+                  <Glow level="0.22" />
+               </effect>
+            </Text>
+            <Label fx:id="lblCountDown" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <effect>
+                  <Glow level="0.43" />
+               </effect>
+            </Label>
+         </children>
+      </GridPane>
+      <Button fx:id="btnQuitGame" layoutX="50.0" layoutY="811.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="46.0" prefWidth="100.0" style="-fx-background-color: #4eab61;" text="Quit" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <ImageView fitHeight="251.0" fitWidth="251.0" layoutX="505.0" layoutY="349.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Bingo/MainBall.png" />
+         </image>
+         <effect>
+            <DropShadow color="#00000060" height="105.6" offsetX="10.0" offsetY="-10.0" radius="55.5775" spread="0.17" width="118.71" />
+         </effect>
+      </ImageView>
+      <GridPane layoutX="582.0" layoutY="427.0" prefHeight="94.0" prefWidth="102.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="-Infinity" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="lblBingoNumber" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowSpan="2147483647" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Montserrat-Regular" size="43.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <VBox fx:id="vBoxNumbers" layoutX="42.0" layoutY="698.0" />
+      <Separator layoutX="-109.0" layoutY="32.0" opacity="0.61" prefHeight="34.0" prefWidth="1415.0" />
+      <ImageView fitHeight="217.0" fitWidth="217.0" layoutX="806.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Bingo/BingoKarteee.png" />
+         </image>
+         <effect>
+            <DropShadow color="#000000d5" height="96.07" offsetX="10.0" offsetY="-10.0" radius="50.815" width="109.19" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="217.0" fitWidth="217.0" layoutX="1043.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Bingo/BingoKarteee.png" />
+         </image>
+         <effect>
+            <DropShadow color="#000000d5" height="96.07" offsetX="10.0" offsetY="-10.0" radius="50.815" width="109.19" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="216.0" fitWidth="217.0" layoutX="809.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Bingo/BingoKarteee.png" />
+         </image>
+         <effect>
+            <DropShadow color="#000000d5" height="96.07" offsetX="10.0" offsetY="-10.0" radius="50.815" width="109.19" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="218.0" fitWidth="217.0" layoutX="1045.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Bingo/BingoKarteee.png" />
+         </image>
+         <effect>
+            <DropShadow color="#000000d5" height="96.07" offsetX="10.0" offsetY="-10.0" radius="50.815" width="109.19" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="217.0" fitWidth="217.0" layoutX="928.0" layoutY="672.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Bingo/BingoKarteee.png" />
+         </image>
+         <effect>
+            <DropShadow color="#000000d5" height="96.07" offsetX="10.0" offsetY="-10.0" radius="50.815" width="109.19" />
+         </effect>
+      </ImageView>
+      <Text fill="WHITE" layoutX="960.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opponents" underline="true">
+         <font>
+            <Font name="Oswald Regular" size="30.0" />
+         </font>
+         <effect>
+            <Glow level="0.39" />
+         </effect>
+      </Text>
+      <Text fx:id="txtBot1" fill="WHITE" layoutX="800.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bot 1" underline="true" wrappingWidth="224.99998538196087">
+         <font>
+            <Font name="Oswald Regular" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Text>
+      <Text fx:id="txtBot2" fill="WHITE" layoutX="1043.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bot 2" underline="true" wrappingWidth="208.0766450688243">
+         <font>
+            <Font name="Oswald Regular" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="0.52" />
+         </effect>
+      </Text>
+      <Separator layoutX="771.0" layoutY="48.0" opacity="0.61" orientation="VERTICAL" prefHeight="853.0" prefWidth="30.0" />
+      <Text fx:id="txtBot3" fill="WHITE" layoutX="817.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bot 3" underline="true" wrappingWidth="202.799994223751">
+         <font>
+            <Font name="Oswald Regular" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="0.52" />
+         </effect>
+      </Text>
+      <Text fx:id="txtBot4" fill="WHITE" layoutX="1047.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bot 4" underline="true" wrappingWidth="145.800006463076">
+         <font>
+            <Font name="Oswald Regular" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="0.49" />
+         </effect>
+      </Text>
+      <Text fx:id="txtBot5" fill="WHITE" layoutX="814.0" layoutY="708.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bot 5" underline="true" wrappingWidth="161.99999554920942">
+         <font>
+            <Font name="Oswald Regular" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="0.47" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="823.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If one of the Bots gets a Bingo before you, you will lose the game!" textAlignment="CENTER" wrappingWidth="445.00000166893">
+         <font>
+            <Font name="Oswald Regular" size="16.0" />
+         </font>
+      </Text>
+      <VBox layoutX="835.0" layoutY="229.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="159.0" prefWidth="160.0">
+         <children>
+            <HBox fx:id="bingoCard1HBoxColumn11" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="194.0">
+               <children>
+                  <Rectangle fx:id="square001" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square101" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square201" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square301" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square401" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn21" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="160.0">
+               <children>
+                  <Rectangle fx:id="square011" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square211" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square311" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square411" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn31" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="159.0">
+               <children>
+                  <Rectangle fx:id="square021" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square121" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square221" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square321" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square421" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn41" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="160.0">
+               <children>
+                  <Rectangle fx:id="square041" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square131" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square231" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square331" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square431" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn51" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="159.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square141" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square241" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square341" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square441" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="1073.0" layoutY="227.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="159.0" prefWidth="160.0">
+         <children>
+            <HBox fx:id="bingoCard1HBoxColumn111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="194.0">
+               <children>
+                  <Rectangle fx:id="square0011" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square1011" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square2011" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square3011" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square4011" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn211" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="160.0">
+               <children>
+                  <Rectangle fx:id="square0111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square1111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square2111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square3111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square4111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn311" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="159.0">
+               <children>
+                  <Rectangle fx:id="square0211" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square1211" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square2211" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square3211" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square4211" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn411" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="160.0">
+               <children>
+                  <Rectangle fx:id="square0411" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square1311" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square2311" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square3311" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square4311" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn511" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="159.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square1411" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square2411" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square3411" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square4411" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="837.0" layoutY="480.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="159.0" prefWidth="160.0">
+         <children>
+            <HBox fx:id="bingoCard1HBoxColumn1111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="194.0">
+               <children>
+                  <Rectangle fx:id="square00111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square10111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square20111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square30111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square40111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn2111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="160.0">
+               <children>
+                  <Rectangle fx:id="square01111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square11111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square21111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square31111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square41111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn3111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="159.0">
+               <children>
+                  <Rectangle fx:id="square02111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square12111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square22111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square32111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square42111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn4111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="160.0">
+               <children>
+                  <Rectangle fx:id="square04111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square13111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square23111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square33111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square43111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn5111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="159.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square14111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square24111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square34111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square44111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="1073.0" layoutY="481.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="159.0" prefWidth="160.0">
+         <children>
+            <HBox fx:id="bingoCard1HBoxColumn11111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="194.0">
+               <children>
+                  <Rectangle fx:id="square001111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square101111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square201111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square301111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square401111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn21111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="160.0">
+               <children>
+                  <Rectangle fx:id="square011111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square111111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square211111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square311111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square411111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn31111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="159.0">
+               <children>
+                  <Rectangle fx:id="square021111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square121111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square221111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square321111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square421111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn41111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="160.0">
+               <children>
+                  <Rectangle fx:id="square041111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square131111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square231111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square331111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square431111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn51111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="159.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square141111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square241111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square341111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square441111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="956.0" layoutY="716.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="159.0" prefWidth="160.0">
+         <children>
+            <HBox fx:id="bingoCard1HBoxColumn111111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="194.0">
+               <children>
+                  <Rectangle fx:id="square0011111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square1011111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square2011111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square3011111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square4011111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn211111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="160.0">
+               <children>
+                  <Rectangle fx:id="square0111111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square1111111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square2111111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square3111111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square4111111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn311111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="159.0">
+               <children>
+                  <Rectangle fx:id="square0211111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square1211111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square2211111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square3211111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square4211111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn411111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="160.0">
+               <children>
+                  <Rectangle fx:id="square0411111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square1311111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square2311111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square3311111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square4311111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+            <HBox fx:id="bingoCard1HBoxColumn511111" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="159.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square1411111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square2411111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square3411111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                  <Rectangle fx:id="square4411111" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox fx:id="bot1CardVBox" layoutX="836.0" layoutY="229.0" prefHeight="159.0" prefWidth="159.0">
+         <children>
+            <HBox fx:id="bot1CardHBox" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot1CardHBox2" prefHeight="30.0" prefWidth="159.0" />
+            <HBox fx:id="bot1CardHBox3" prefHeight="31.0" prefWidth="159.0" />
+            <HBox fx:id="bot1CardHBox4" prefHeight="33.0" prefWidth="159.0" />
+            <HBox fx:id="bot1CardHBox5" prefHeight="30.0" prefWidth="159.0" />
+         </children>
+      </VBox>
+      <VBox fx:id="bot2CardVBox" layoutX="1073.0" layoutY="225.0" prefHeight="159.0" prefWidth="160.0">
+         <children>
+            <HBox fx:id="bot2CardHBox" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot2CardHBox2" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot2CardHBox3" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot2CardHBox4" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot2CardHBox5" prefHeight="32.0" prefWidth="159.0" />
+         </children>
+      </VBox>
+      <VBox fx:id="bot3CardVBox" layoutX="837.0" layoutY="481.0" prefHeight="159.0" prefWidth="159.0">
+         <children>
+            <HBox fx:id="bot3CardHBox" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot3CardHBox2" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot3CardHBox3" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot3CardHBox4" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot3CardHBox5" prefHeight="32.0" prefWidth="159.0" />
+         </children>
+      </VBox>
+      <VBox fx:id="bot4CardVBox" layoutX="1074.0" layoutY="480.0" prefHeight="159.0" prefWidth="159.0">
+         <children>
+            <HBox fx:id="bot4CardHBox" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot4CardHBox2" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot4CardHBox3" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot4CardHBox4" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot4CardHBox5" prefHeight="32.0" prefWidth="159.0" />
+         </children>
+      </VBox>
+      <VBox fx:id="bot5CardVBox" layoutX="956.0" layoutY="714.0" prefHeight="159.0" prefWidth="159.0">
+         <children>
+            <HBox fx:id="bot5CardHBox" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot5CardHBox2" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot5CardHBox3" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot5CardHBox4" prefHeight="32.0" prefWidth="159.0" />
+            <HBox fx:id="bot5CardHBox5" prefHeight="32.0" prefWidth="159.0" />
+         </children>
+      </VBox>
+      <GridPane layoutX="486.0" layoutY="265.0" prefHeight="71.0" prefWidth="270.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="lblBingoUser" prefHeight="41.0" prefWidth="114.0" textFill="WHITE" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblBingoBot" prefHeight="41.0" prefWidth="114.0" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <HBox fx:id="hBoxNumbers" layoutX="48.0" layoutY="705.0" opacity="0.36" prefHeight="20.0" prefWidth="712.0" />
+      <Button fx:id="btnPlayAgain" layoutX="310.0" layoutY="810.0" mnemonicParsing="false" onAction="#playAgain" prefHeight="46.0" prefWidth="135.0" style="-fx-background-color: #4eab61;" text="Play again" textFill="WHITE">
+         <font>
+            <Font name="Oswald Regular" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblOut" layoutX="311.0" layoutY="716.0" prefHeight="30.0" prefWidth="469.0" textFill="WHITE">
+         <font>
+            <Font name="Oswald Regular" size="20.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</AnchorPane>

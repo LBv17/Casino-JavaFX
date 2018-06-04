@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="rootAnchorPane" prefHeight="167.0" prefWidth="300.0" stylesheets="@../styles/rechargeview.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9" fx:controller="ch.bbbaden.casino.bumchums.casino.controller.RechargeViewController">
+   <children>
+      <JFXButton layoutX="121.0" layoutY="145.0" onAction="#handleConfirmAction" text="Confirm" AnchorPane.topAnchor="107.0" />
+      <JFXTextField fx:id="rechargeField" layoutX="79.0" layoutY="73.0" promptText="Enter amount to recharge" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0" />
+      <ImageView fx:id="closeView" fitHeight="25.0" fitWidth="25.0" layoutX="21.0" layoutY="-2.0" onMouseClicked="#handleCloseAction" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@../images/close_white.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

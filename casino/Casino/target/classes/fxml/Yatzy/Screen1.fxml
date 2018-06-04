@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="648.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.casino.bumchums.casino.Yatzy.Screen1Controller">
+   <children>
+      <ImageView fitHeight="648.0" fitWidth="1000.0" layoutX="-10.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/Yatzy/Dark-Grey-Background-High-Resolution-Photo-isk6e-Free.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="226.0" fitWidth="578.0" layoutX="412.0" layoutY="211.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/Yatzy/Plain-Grey-Background.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="button2" layoutX="556.0" layoutY="374.0" mnemonicParsing="false" onAction="#button2" prefHeight="27.0" prefWidth="78.0" stylesheets="@../../styles/StyleYatzy.css" text="Hold" AnchorPane.rightAnchor="356.0">
+         <styleClass>
+            <String fx:value="btnStart" />
+            <String fx:value="btnHover" />
+         </styleClass></Button>
+      <Button fx:id="button1" layoutX="440.0" layoutY="374.0" mnemonicParsing="false" onAction="#button1" prefHeight="27.0" prefWidth="78.0" stylesheets="@../../styles/StyleYatzy.css" text="Hold" AnchorPane.rightAnchor="482.0">
+         <styleClass>
+            <String fx:value="btnStart" />
+            <String fx:value="btnHover" />
+         </styleClass></Button>
+      <Button fx:id="button3" layoutX="666.0" layoutY="374.0" mnemonicParsing="false" onAction="#button3" prefHeight="27.0" prefWidth="78.0" stylesheets="@../../styles/StyleYatzy.css" text="Hold" AnchorPane.rightAnchor="246.0">
+         <styleClass>
+            <String fx:value="btnStart" />
+            <String fx:value="btnHover" />
+         </styleClass></Button>
+      <Button fx:id="button4" layoutX="776.0" layoutY="374.0" mnemonicParsing="false" onAction="#button4" prefHeight="27.0" prefWidth="78.0" stylesheets="@../../styles/StyleYatzy.css" text="Hold" AnchorPane.rightAnchor="136.0">
+         <styleClass>
+            <String fx:value="btnStart" />
+            <String fx:value="btnHover" />
+         </styleClass></Button>
+      <Button fx:id="button5" layoutX="886.0" layoutY="373.0" mnemonicParsing="false" onAction="#button5" prefHeight="27.0" prefWidth="78.0" stylesheets="@../../styles/StyleYatzy.css" text="Hold" AnchorPane.rightAnchor="26.0">
+         <styleClass>
+            <String fx:value="btnStart" />
+            <String fx:value="btnHover" />
+         </styleClass></Button>
+      <Button fx:id="btnRoll" layoutX="518.0" layoutY="480.0" mnemonicParsing="false" onAction="#btnRoll" prefHeight="60.0" prefWidth="365.0" text="Roll[3]">
+         <font>
+            <Font size="34.0" />
+         </font>
+         <styleClass>
+            <String fx:value="btnStart" />
+            <String fx:value="btnHover" />
+         </styleClass>
+         <stylesheets>
+            <URL value="@../styles/StyleYatzy.css" />
+            <URL value="@../../styles/StyleYatzy.css" />
+         </stylesheets>
+      </Button>
+      <GridPane layoutX="65.0" layoutY="62.0" prefHeight="462.0" prefWidth="371.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="153.0" minWidth="10.0" prefWidth="151.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="106.0" minWidth="10.0" prefWidth="54.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="108.0" minWidth="10.0" prefWidth="102.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="108.0" minWidth="10.0" prefWidth="66.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <RadioButton fx:id="rbOnes" mnemonicParsing="false" text="Ones" textFill="WHITE" GridPane.rowIndex="1" />
+            <RadioButton fx:id="rbTwos" mnemonicParsing="false" text="Twos" textFill="WHITE" GridPane.rowIndex="2" />
+            <RadioButton fx:id="rbThrees" mnemonicParsing="false" text="Threes" textFill="WHITE" GridPane.rowIndex="3" />
+            <RadioButton fx:id="rbFours" mnemonicParsing="false" text="Fours" textFill="WHITE" GridPane.rowIndex="4" />
+            <Label fx:id="lbOnes" alignment="BASELINE_CENTER" contentDisplay="CENTER" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <RadioButton fx:id="rbFives" mnemonicParsing="false" text="Fives" textFill="WHITE" GridPane.rowIndex="5" />
+            <RadioButton fx:id="rbSixes" mnemonicParsing="false" text="Sixes" textFill="WHITE" GridPane.rowIndex="6" />
+            <RadioButton fx:id="rbThreeOfKind" mnemonicParsing="false" prefHeight="18.0" prefWidth="117.0" text="Three of a kind" textFill="WHITE" GridPane.rowIndex="7" />
+            <RadioButton fx:id="rbFourOfKind" mnemonicParsing="false" text="Four of a kind" textFill="WHITE" GridPane.rowIndex="8" />
+            <RadioButton fx:id="rbFH" mnemonicParsing="false" text="Full House" textFill="WHITE" GridPane.rowIndex="9" />
+            <Label fx:id="lbTwos" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label contentDisplay="CENTER" text="Figures" textFill="WHITE" underline="true" />
+            <Label text="Player" textFill="WHITE" underline="true" GridPane.columnIndex="1" />
+            <Label fx:id="lbThrees" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <RadioButton fx:id="rbSS" mnemonicParsing="false" text="Small Straight" textFill="WHITE" GridPane.rowIndex="10" />
+            <RadioButton fx:id="rbLS" mnemonicParsing="false" text="Large Straight" textFill="WHITE" GridPane.rowIndex="11" />
+            <RadioButton fx:id="rbYatzy" mnemonicParsing="false" text="Yatzy" textFill="WHITE" GridPane.rowIndex="12" />
+            <RadioButton fx:id="rbChance" mnemonicParsing="false" text="Chance" textFill="WHITE" GridPane.rowIndex="13" />
+            <Label text="Opponnent" textFill="WHITE" underline="true" GridPane.columnIndex="2" />
+            <Label fx:id="lbFours" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="lbFives" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="lbSixes" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label fx:id="lbThreeOfKind" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Label fx:id="lbFourOfKind" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Label fx:id="lbFH" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Label fx:id="lbSS" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <Label fx:id="lbLS" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <Label fx:id="lbYatzy" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+            <Label fx:id="lbChance" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+            <Label text="Total:" textFill="WHITE" underline="true" GridPane.rowIndex="14" />
+            <Label fx:id="lbTotal" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+            <Label fx:id="lbOnes2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="lbTwos2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label fx:id="lbThrees2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label fx:id="lbFours2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label fx:id="lbFives2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Label fx:id="lbSixes2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Label fx:id="lbThreeOfKind2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Label fx:id="lbFourOfKind2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <Label fx:id="lbTotal2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="14" />
+            <Label fx:id="lbFH2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+            <Label fx:id="lbSmallStraight2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+            <Label fx:id="lbLargeStraight2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+            <Label fx:id="lbYatzy2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+            <Label fx:id="lbChance2" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="13" />
+         </children>
+      </GridPane>
+      <Button layoutX="135.0" layoutY="551.0" mnemonicParsing="false" onAction="#btnConfirm" prefHeight="34.0" prefWidth="150.0" stylesheets="@../../styles/StyleYatzy.css" text="Confirm">
+         <styleClass>
+            <String fx:value="btnHover" />
+            <String fx:value="btnStart" />
+         </styleClass></Button>
+      <Label layoutX="33.0" layoutY="24.0" text="Round:" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbRound" layoutX="107.0" layoutY="24.0" text="1" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="iv1" fitHeight="90.0" fitWidth="90.0" layoutX="434.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Yatzy/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iv2" fitHeight="90.0" fitWidth="90.0" layoutX="550.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Yatzy/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iv3" fitHeight="90.0" fitWidth="90.0" layoutX="660.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Yatzy/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iv4" fitHeight="90.0" fitWidth="90.0" layoutX="770.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Yatzy/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iv5" fitHeight="90.0" fitWidth="90.0" layoutX="880.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Yatzy/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="412.0" layoutX="479.0" layoutY="36.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/Yatzy/cooltext282089864373699.png" />
+         </image>
+      </ImageView>
+      <ButtonBar layoutX="650.0" layoutY="595.0" prefHeight="39.0" prefWidth="302.0">
+        <buttons>
+          <Button fx:id="btnRestart" minWidth="6.0" mnemonicParsing="false" onAction="#restart" onMouseEntered="#bright" onMouseExited="#notBright" opacity="0.5" prefHeight="0.0" stylesheets="@../../styles/StyleYatzy.css" text="Restart">
+               <styleClass>
+                  <String fx:value="btnStart" />
+                  <String fx:value="btnHover" />
+               </styleClass>
+            </Button>
+            <Button fx:id="btnHelp" mnemonicParsing="false" onAction="#help" onMouseEntered="#bright" onMouseExited="#notBright" opacity="0.5" stylesheets="@../../styles/StyleYatzy.css" text="Help">
+               <styleClass>
+                  <String fx:value="btnHover" />
+                  <String fx:value="btnStart" />
+               </styleClass>
+            </Button>
+            <Button fx:id="btnExit" mnemonicParsing="false" onAction="#exit" onMouseEntered="#bright" onMouseExited="#notBright" opacity="0.5" text="Back">
+               <styleClass>
+                  <String fx:value="btnStart" />
+                  <String fx:value="btnHover" />
+               </styleClass>
+               <stylesheets>
+                  <URL value="@../styles/StyleYatzy.css" />
+                  <URL value="@../../styles/StyleYatzy.css" />
+               </stylesheets>
+            </Button>
+            <Button fx:id="btnClose" mnemonicParsing="false" onAction="#btnClose" onMouseEntered="#bright" onMouseExited="#notBright" opacity="0.5" stylesheets="@../../styles/StyleYatzy.css" text="Close">
+               <styleClass>
+                  <String fx:value="btnHover" />
+                  <String fx:value="btnStart" />
+               </styleClass>
+            </Button>
+        </buttons>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </ButtonBar>
+      <ImageView fx:id="imvHelp1" fitHeight="110.0" fitWidth="189.0" layoutX="375.0" layoutY="461.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Yatzy/580b57fcd9996e24bc43c441.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbHelp1" layoutX="417.0" layoutY="491.0" opacity="0.0" prefHeight="47.0" prefWidth="88.0" text="1. Klick Roll">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imvHelp2" fitHeight="110.0" fitWidth="189.0" layoutX="385.0" layoutY="271.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" rotate="38.7">
+         <image>
+            <Image url="@../../images/Yatzy/580b57fcd9996e24bc43c441.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbHelp2" layoutX="408.0" layoutY="296.0" opacity="0.0" rotate="38.7" text="2. Choose the dices&#10; you wanna hold" />
+      <ImageView fx:id="imvHelp3" fitHeight="89.0" fitWidth="170.0" layoutX="77.0" layoutY="36.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" rotate="153.4">
+         <image>
+            <Image url="@../../images/Yatzy/580b57fcd9996e24bc43c441.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbHelp3" layoutX="95.0" layoutY="72.0" opacity="0.0" rotate="-26.6" text="3. Choose figure" />
+      <ImageView fx:id="imvHelp4" fitHeight="110.0" fitWidth="189.0" layoutX="278.0" layoutY="514.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" rotate="-175.2">
+         <image>
+            <Image url="@../../images/Yatzy/580b57fcd9996e24bc43c441.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbHelp4" layoutX="348.0" layoutY="559.0" opacity="0.0" rotate="7.1" text="4. Confirm " />
+      <Label layoutX="815.0" layoutY="16.0" text="Kontostand:" textFill="WHITE" />
+      <Label fx:id="lbBalance1" layoutX="898.0" layoutY="16.0" text="0" textFill="WHITE" />
+   </children>
+</AnchorPane>

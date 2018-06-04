@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.casino.bumchums.casino.Yatzy.StartScreenController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1000.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/Yatzy/casino-dark-screen.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="173.0" layoutX="433.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Yatzy/gugg-und-spiele-wuerfel.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="428.0" layoutY="433.0" mnemonicParsing="false" onAction="#screenChangeButton" prefHeight="118.0" prefWidth="173.0" styleClass="btnInvisible" stylesheets="@../../styles/StyleYatzy.css" />
+      <Label layoutX="134.0" layoutY="213.0" text="Who likes dice games, will have much joy in Yatzy.&#10;The game principle is quite simple.&#10;In a maximum of five dices you can collect points according to certain schemes and enter them in your column in the block. &#10;The score at the end of the game determines the winner, who wins is the player with the highest score. " textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="429.0" layoutY="386.0" text="To start, press the dice" textFill="WHITE" />
+      <ImageView fitHeight="154.0" fitWidth="368.0" layoutX="331.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Yatzy/cooltext282089864373699.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="344.0" layoutY="329.0" text="Set bet:" textFill="WHITE" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtBet" layoutX="417.0" layoutY="325.0" />
+      <Label layoutX="844.0" layoutY="22.0" text="Kontostand:" textFill="WHITE" underline="true" />
+      <Label fx:id="lbBalance" layoutX="925.0" layoutY="22.0" text="0" textFill="WHITE" />
+   </children>
+</AnchorPane>

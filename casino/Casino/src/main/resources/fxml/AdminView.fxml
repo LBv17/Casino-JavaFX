@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="rootAnchor" prefHeight="290.0" prefWidth="610.0" stylesheets="@../styles/adminview.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.casino.bumchums.casino.controller.AdminViewController">
+   <children>
+      <Label layoutX="51.0" layoutY="56.0" styleClass="title" text="Administrator" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="40.0" />
+      <AnchorPane layoutX="33.0" layoutY="90.0" onMouseClicked="#showGameStatisticsAction" prefHeight="150.0" prefWidth="150.0" styleClass="actionAnchor" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <ImageView disable="true" fitHeight="92.0" fitWidth="106.0" layoutX="29.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/statIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="40.0" layoutX="102.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/gameIcon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="26.0" layoutY="121.0" text="Game Statistics" AnchorPane.bottomAnchor="10.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="225.0" layoutY="100.0" onMouseClicked="#showPlayerStatisticsAction" prefHeight="150.0" prefWidth="150.0" styleClass="actionAnchor" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="230.0">
+         <children>
+            <ImageView disable="true" fitHeight="92.0" fitWidth="106.0" layoutX="29.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/statIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="40.0" layoutX="104.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/accountIcon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="30.0" layoutY="121.0" text="User Statistics" AnchorPane.bottomAnchor="10.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="399.0" layoutY="100.0" onMouseClicked="#showAdminSettingsAction" prefHeight="150.0" prefWidth="150.0" styleClass="actionAnchor" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="40.0">
+         <children>
+            <ImageView disable="true" fitHeight="92.0" fitWidth="106.0" layoutX="22.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/settingsIcon_white.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="50.0" layoutY="118.0" text="Settings" AnchorPane.bottomAnchor="10.0" />
+         </children>
+      </AnchorPane>
+      <Pane fx:id="dragPane" layoutX="326.0" layoutY="-10.0" prefHeight="30.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ImageView fx:id="closeImageView" fitHeight="25.0" fitWidth="25.0" onMouseClicked="#handleCloseAction" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@../images/close_white.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="minimizeImageView" fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="10.0" onMouseClicked="#handleMinimizeAction" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@../images/minimize_white.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

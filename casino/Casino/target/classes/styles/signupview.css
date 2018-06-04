@@ -1,0 +1,39 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#signUpAnchorPane {
+    -fx-background-color:  #009688;
+    
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(30,30,30,0.6), 15, 0, 0, 5);
+    -fx-padding: 17;
+}
+
+
+.text {
+    -fx-fill: #FFFFFF;
+}
+
+.title {
+    -fx-font-size: 25px;
+}
+
+.button {
+    -fx-background-color: #FF5252;
+    -jfx-button-type: RAISED;
+    -fx-text-fill: white;
+    -jfx-disable-visual-focus: true;
+}
+
+.jfx-text-field, .jfx-password-field, .jfx-text-area {
+    
+    -jfx-focus-color: #FF5252;
+    -jfx-unfocus-color: #FFFFFF;
+    /*-fx-prompt-text-fill: #AAAAAA;*/
+    -fx-prompt-text-fill: rgba(255,255,255,0.5);
+    /*-fx-text-fill: #FF5252;*/
+    -fx-text-fill: #FFFFFF;
+    
+}

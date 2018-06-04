@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="rootAnchorPane" fx:id="anchorPane" prefHeight="703.0" prefWidth="1014.0" stylesheets="@../../styles/sicboview.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.casino.bumchums.casino.SicBo.SicBoViewController">
+   <children>
+      <ImageView fx:id="boardView" fitHeight="537.0" fitWidth="1014.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/SicBoBack.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="smallPane" layoutX="14.0" layoutY="80.0" prefHeight="141.0" prefWidth="154.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+      <Pane fx:id="bigPane" layoutX="852.0" layoutY="80.0" prefHeight="141.0" prefWidth="154.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+      <Pane fx:id="tripleContainerPane" disable="true" layoutX="377.0" layoutY="124.0" prefHeight="107.0" prefWidth="263.0">
+         <children>
+            <Pane fx:id="tripleOnePane" layoutX="3.0" layoutY="2.0" prefHeight="27.0" prefWidth="88.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="tripleTwoPane" layoutX="3.0" layoutY="38.0" prefHeight="27.0" prefWidth="88.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="tripleThreePane" layoutX="3.0" layoutY="74.0" prefHeight="27.0" prefWidth="88.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="tripleFourPane" layoutX="170.0" layoutY="2.0" prefHeight="27.0" prefWidth="88.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="tripleFivePane" layoutX="170.0" layoutY="38.0" prefHeight="27.0" prefWidth="88.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="tripleSixPane" layoutX="168.0" layoutY="74.0" prefHeight="27.0" prefWidth="88.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="triplePane" layoutX="103.0" layoutY="1.0" prefHeight="100.0" prefWidth="54.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+         </children>
+      </Pane>
+      <Pane fx:id="doublePane" disable="true" layoutX="178.0" layoutY="121.0" prefHeight="114.0" prefWidth="664.0">
+         <children>
+            <Pane fx:id="doubleOnePane" layoutX="8.0" layoutY="9.0" prefHeight="92.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="doubleTwoPane" layoutX="74.0" layoutY="9.0" prefHeight="92.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="doubleThreePane" layoutX="141.0" layoutY="9.0" prefHeight="92.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="doubleFourPane" layoutX="470.0" layoutY="9.0" prefHeight="92.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="doubleFivePane" layoutX="537.0" layoutY="9.0" prefHeight="92.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="doubleSixPane" layoutX="602.0" layoutY="9.0" prefHeight="92.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+         </children>
+      </Pane>
+      <Pane fx:id="sumPane" disable="true" layoutX="6.0" layoutY="232.0" prefHeight="124.0" prefWidth="1004.0">
+         <children>
+            <Pane fx:id="sumFourPane" layoutX="6.0" layoutY="8.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumFivePane" layoutX="78.0" layoutY="8.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumSixPane" layoutX="148.0" layoutY="8.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumSevenPane" layoutX="219.0" layoutY="8.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumEightPane" layoutX="291.0" layoutY="8.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumNinePane" layoutX="361.0" layoutY="9.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumTenPane" layoutX="433.0" layoutY="8.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumElevenPane" layoutX="505.0" layoutY="8.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumTwelvePane" layoutX="577.0" layoutY="8.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumThirteenPane" layoutX="649.0" layoutY="8.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumFourteenPane" layoutX="719.0" layoutY="7.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumFifteenPane" layoutX="790.0" layoutY="8.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumSixteenPane" layoutX="864.0" layoutY="7.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sumSeventeenPane" layoutX="934.0" layoutY="8.0" prefHeight="107.0" prefWidth="62.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+         </children>
+      </Pane>
+      <Pane fx:id="comboPane" disable="true" layoutX="106.0" layoutY="350.0" prefHeight="132.0" prefWidth="902.0">
+         <children>
+            <Pane fx:id="oneTwoPane" layoutX="8.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="oneThreePane" layoutX="66.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="oneFourPane" layoutX="129.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="oneFivePane" layoutX="187.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="oneSixPane" layoutX="248.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="twoThreePane" layoutX="307.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="twoFourPane" layoutX="366.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="twoFivePane" layoutX="426.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="twoSixPane" layoutX="487.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="threeFourPane" layoutX="546.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="threeFivePane" layoutX="606.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="threeSixPane" layoutX="666.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="fourFivePane" layoutX="727.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="fourSixPane" layoutX="784.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="fiveSixPane" layoutX="846.0" layoutY="13.0" prefHeight="107.0" prefWidth="50.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+         </children>
+      </Pane>
+      <Pane fx:id="singlePane" disable="true" layoutX="4.0" layoutY="473.0" prefHeight="75.0" prefWidth="1004.0">
+         <children>
+            <Pane fx:id="onePane" layoutX="8.0" layoutY="10.0" prefHeight="56.0" prefWidth="154.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="twoPane" layoutX="175.0" layoutY="10.0" prefHeight="56.0" prefWidth="154.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="threePane" layoutX="341.0" layoutY="10.0" prefHeight="56.0" prefWidth="154.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="fourPane" layoutX="509.0" layoutY="10.0" prefHeight="56.0" prefWidth="154.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="fivePane" layoutX="675.0" layoutY="10.0" prefHeight="56.0" prefWidth="154.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+            <Pane fx:id="sixPane" layoutX="844.0" layoutY="10.0" prefHeight="56.0" prefWidth="154.0" styleClass="pane" stylesheets="@../../styles/sicboview.css" />
+         </children>
+      </Pane>
+      <JFXComboBox fx:id="betBox" focusColor="WHITE" focusTraversable="false" labelFloat="true" layoutX="840.0" layoutY="636.0" promptText="Enter Bet Amount" styleClass="jfx-combo-box" stylesheets="@../../styles/sicboview.css" unFocusColor="WHITE" AnchorPane.bottomAnchor="45.0" AnchorPane.rightAnchor="20.0" />
+      <Label layoutX="38.0" layoutY="29.0" styleClass="title" text="SicBo" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="30.0" />
+      <Label layoutX="800.0" layoutY="37.0" text="Account Balance" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="37.0" />
+      <JFXButton fx:id="rollButton" buttonType="RAISED" focusTraversable="false" layoutX="18.0" layoutY="632.0" onAction="#handleRollAction" text="Roll Dice" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="20.0" />
+      <ImageView fx:id="diceOne" fitHeight="75.0" fitWidth="75.0" layoutX="138.0" layoutY="617.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="112.0">
+         <image>
+            <Image url="@../../images/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="diceTwo" fitHeight="75.0" fitWidth="75.0" layoutX="197.0" layoutY="608.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="202.0">
+         <image>
+            <Image url="@../../images/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="diceThree" fitHeight="75.0" fitWidth="75.0" layoutX="281.0" layoutY="608.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="292.0">
+         <image>
+            <Image url="@../../images/1.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="dragPane" layoutX="159.0" layoutY="-62.0" onMouseDragReleased="#handlePaneDragReleased" onMouseDragged="#handlePaneMouseDragged" onMousePressed="#handlePanePressed" prefHeight="20.0" prefWidth="200.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="88.0" layoutY="-29.0" onMouseClicked="#handleCloseClicked" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@../../images/close_white.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="confirmBetButton" layoutX="748.0" layoutY="632.0" onAction="#handleConfirmAction" text="Confirm" AnchorPane.bottomAnchor="45.0" AnchorPane.rightAnchor="200.0" />
+      <JFXButton fx:id="resetButton" layoutX="391.0" layoutY="631.0" onAction="#handleResetAction" text="Reset Chips" />
+      <Label fx:id="accountBalanceLabel" alignment="CENTER_RIGHT" layoutX="883.0" layoutY="37.0" prefHeight="17.0" prefWidth="104.0" text="999999999" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="37.0" />
+   </children>
+</AnchorPane>

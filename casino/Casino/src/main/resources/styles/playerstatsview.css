@@ -1,0 +1,106 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+/*
+ * Empty Stylesheet file.
+ */
+
+#rootAnchor {
+    
+    /* gray */
+    -fx-background-color: #2f2d32;
+    
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    
+    -fx-effect: dropshadow(gaussian, rgba(30,30,30,0.6), 15, 0, 0, 5);
+   
+}
+
+.text {
+    -fx-fill: #FFFFFF;
+}
+
+.title {
+    -fx-font-size: 25px;
+}
+
+.button {
+    -fx-background-color: #FF5252;
+    -jfx-button-type: RAISED;
+    -fx-text-fill: white;
+    -jfx-disable-visual-focus: true;
+}
+
+.jfx-text-field, .jfx-password-field, .jfx-text-area {
+    
+    -jfx-focus-color: #FF5252;
+    -jfx-unfocus-color: #FFFFFF;
+    /*-fx-prompt-text-fill: #AAAAAA;*/
+    -fx-prompt-text-fill: rgba(255,255,255,0.5);
+    /*-fx-text-fill: #FF5252;*/
+    -fx-text-fill: #FFFFFF;
+    
+}
+
+.jfx-combo-box .arrow-button .arrow {
+    -fx-background-color: #FFFFFF;
+}
+
+.jfx-combo-box {
+    -fx-text-fill: #FF5252;
+    -fx-fill: #FF5252;
+}
+
+.jfx-combo-box .list-view,
+.jfx-combo-box .list-view .list-cell {
+    -fx-fill: #2f2d32;
+    -fx-background-color: #2f2d32;
+}
+
+.jfx-date-picker {
+   -fx-control-inner-background: #2f2d32;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+   -fx-border-color: #FF5252;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #2f2d32;
+/*    -fx-border-color: #FF5252;*/
+     
+    -fx-border-width: 0 0 0 0;
+    -fx-border-color: #FF5252;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    /*-fx-border-color: #FF5252;*/
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #FF5252;
+}
+
+.table-view .column-overlay {
+
+    -fx-background-color: #2f2d32;
+}
+
+.table-view .table-cell {
+    -fx-background-color: #2f2d32;
+    -fx-table-cell-border-color: #FF5252;
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: #FF5252;
+}
+
+.table-row-cell > .disclosure-node > .arrow {
+    -fx-background-color: -fx-text-fill;
+    -fx-padding: 0.333333em 0.229em 0.333333em 0.229em; /* 4 */
+    -fx-shape: "M 0 -3.5 L 4 0 L 0 3.5 z";
+}

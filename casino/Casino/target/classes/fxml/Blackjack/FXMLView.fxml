@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="AnchorPane" prefHeight="775.0" prefWidth="1201.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.casino.bumchums.casino.Blackjack.FXMLViewController">
+    <stylesheets>
+        <URL value="@/styles/fxmlview.css" />
+    </stylesheets>
+   <children>
+      <ImageView fx:id="Back" fitHeight="775.0" fitWidth="1225.0" layoutX="-1.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../images/Blackjack/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView id="view1" fx:id="view1" fitHeight="96.0" fitWidth="137.0" layoutX="559.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Blackjack/push-button-red-512.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label3" alignment="CENTER" contentDisplay="CENTER" layoutX="470.0" layoutY="124.0" prefHeight="49.0" prefWidth="125.0" style="-fx-background-color: #597274; -fx-background-radius: 10; -fx-border-color: white; -fx-border-radius: 10;" text="0" textFill="WHITE">
+         <font>
+            <Font name="AR JULIAN" size="26.0" />
+         </font></Label>
+      <Label fx:id="label4" alignment="CENTER" contentDisplay="CENTER" layoutX="627.0" layoutY="124.0" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #597274; -fx-background-radius: 10; -fx-border-color: white; -fx-border-radius: 10;" text="0" textFill="WHITE">
+         <font>
+            <Font name="AR JULIAN" size="26.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="black" fitHeight="775.0" fitWidth="1225.0" layoutX="-4.0" opacity="0.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/Blackjack/black.png" />
+         </image>
+      </ImageView>
+      
+            <ImageView id="cardView" fx:id="cardView" fitHeight="99.0" fitWidth="90.0" layoutX="492.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="secondcardView" fx:id="secondcardView" fitHeight="99.0" fitWidth="90.0" layoutX="502.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="thirdcardView" fx:id="thirdcardView" fitHeight="99.0" fitWidth="90.0" layoutX="515.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="forthcardView" fx:id="forthcardView" fitHeight="99.0" fitWidth="90.0" layoutX="526.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="fifthcardView" fx:id="fifthcardView" fitHeight="99.0" fitWidth="90.0" layoutX="542.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="sixthcardView" fx:id="sixthcardView" fitHeight="99.0" fitWidth="90.0" layoutX="556.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="seventhcardView" fx:id="seventhcardView" fitHeight="99.0" fitWidth="90.0" layoutX="567.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="eighthcardView" fx:id="eighthcardView" fitHeight="99.0" fitWidth="90.0" layoutX="584.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="ninthcardView" fx:id="ninthcardView" fitHeight="99.0" fitWidth="90.0" layoutX="600.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="tenthcardView" fx:id="tenthcardView" fitHeight="99.0" fitWidth="90.0" layoutX="621.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="groupView" fx:id="groupView" fitHeight="99.0" fitWidth="90.0" layoutX="493.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="groupView2" fx:id="groupView2" fitHeight="99.0" fitWidth="90.0" layoutX="512.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="groupView3" fx:id="groupView3" fitHeight="99.0" fitWidth="90.0" layoutX="529.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="groupView5" fx:id="groupView9" fitHeight="99.0" fitWidth="90.0" layoutX="625.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="groupView4" fx:id="groupView4" fitHeight="99.0" fitWidth="90.0" layoutX="551.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="groupView6" fx:id="groupView5" fitHeight="99.0" fitWidth="90.0" layoutX="561.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="groupView7" fx:id="groupView6" fitHeight="99.0" fitWidth="90.0" layoutX="578.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="groupView8" fx:id="groupView7" fitHeight="99.0" fitWidth="90.0" layoutX="594.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="groupView9" fx:id="groupView8" fitHeight="99.0" fitWidth="90.0" layoutX="615.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="groupView10" fx:id="groupView10" fitHeight="99.0" fitWidth="90.0" layoutX="635.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="holdCards" layoutX="566.0" layoutY="247.0" mnemonicParsing="false" onAction="#viewClicked" opacity="0.0" prefHeight="84.0" prefWidth="94.0" text="Button" />
+      <Button id="furtherButton" fx:id="furtherButton" layoutX="676.0" layoutY="235.0" mnemonicParsing="false" onAction="#furtherDraws" opacity="0.0" prefHeight="66.0" prefWidth="78.0" />
+      <HBox alignment="TOP_CENTER" layoutX="748.0" layoutY="79.0" prefHeight="94.0" prefWidth="444.0">
+         <children>
+            <Label fx:id="label2" alignment="CENTER" prefHeight="28.0" prefWidth="200.0" text="Groupier's Points:" textAlignment="JUSTIFY" textFill="#f3e0b2">
+               <font>
+                  <Font name="AR JULIAN" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl_pointsGroup" alignment="CENTER" prefHeight="27.0" prefWidth="78.0" text="0" textAlignment="JUSTIFY" textFill="#f3e0b2">
+               <font>
+                  <Font name="AR JULIAN" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" layoutY="79.0" prefHeight="94.0" prefWidth="444.0">
+         <children>
+            <Label fx:id="label1" alignment="CENTER" prefHeight="28.0" prefWidth="183.0" text="Players' Points:" textAlignment="JUSTIFY" textFill="#f3e0b2">
+               <font>
+                  <Font name="AR JULIAN" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl_points" alignment="CENTER" prefHeight="27.0" prefWidth="78.0" text="0" textFill="#f3e0b2">
+               <font>
+                  <Font name="AR JULIAN" size="24.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="251.0" layoutY="712.0" prefHeight="43.0" prefWidth="707.0" spacing="6.0">
+         <children>
+            <Button fx:id="re" mnemonicParsing="false" onAction="#restart" prefHeight="38.0" prefWidth="288.0" style="-fx-background-color: #F3E0B2;" text="Restart">
+               <font>
+                  <Font name="AR JULIAN" size="18.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="button" contentDisplay="CENTER" mnemonicParsing="false" onAction="#drawFirstCards" prefHeight="38.0" prefWidth="288.0" style="-fx-background-color: #F3E0B2;" text="Start Game" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="AR JULIAN" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="setInsurance" mnemonicParsing="false" onAction="#insure" prefHeight="38.0" prefWidth="288.0" style="-fx-background-color: #F3E0B2;" text="BlackJack Insurance">
+               <font>
+                  <Font name="AR JULIAN" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_RIGHT" layoutX="256.0" layoutY="660.0" prefHeight="43.0" prefWidth="707.0" spacing="6.0">
+         <children>
+            <TextField fx:id="gameBet" alignment="CENTER" prefHeight="38.0" prefWidth="230.0" promptText="Your Bet">
+               <font>
+                  <Font name="AR JULIAN" size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="betInsur" prefHeight="38.0" prefWidth="235.0" promptText="Your insurance">
+               <font>
+                  <Font name="AR JULIAN" size="18.0" />
+               </font>
+            </TextField>
+         </children>
+      </HBox>
+      <Label fx:id="nam2" alignment="CENTER" layoutX="424.0" layoutY="1.0" prefHeight="54.0" prefWidth="390.0" text="BlackJack" textFill="WHITE">
+         <font>
+            <Font name="AR JULIAN" size="45.0" />
+         </font>
+      </Label>
+      <Label fx:id="nam" alignment="CENTER" layoutX="421.0" layoutY="1.0" prefHeight="54.0" prefWidth="390.0" text="BlackJack" textFill="#f3e0b2">
+         <font>
+            <Font name="AR JULIAN" size="45.0" />
+         </font>
+      </Label>
+      <Label fx:id="helpM" layoutX="1167.0" layoutY="4.0" onMouseClicked="#helpMe" prefHeight="47.0" prefWidth="11.0" text="?" textFill="#f3e0b2">
+         <font>
+            <Font name="AR JULIAN" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="arrow2" fitHeight="148.0" fitWidth="161.0" layoutX="754.0" layoutY="236.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" rotate="43.5">
+         <image>
+            <Image url="@../../images/Blackjack/arrowmirror.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrow1" fitHeight="148.0" fitWidth="161.0" layoutX="429.0" layoutY="266.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" rotate="38.4">
+         <image>
+            <Image url="@../../images/Blackjack/arrow-orange.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="arrowText1" layoutX="368.0" layoutY="309.0" opacity="0.0" text="Hold" textFill="#f3e0b2">
+         <font>
+            <Font name="AR JULIAN" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="arrowText2" layoutX="850.0" layoutY="255.0" opacity="0.0" text="Draw further Cards" textFill="#f3e0b2">
+         <font>
+            <Font name="AR JULIAN" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="icon" fitHeight="71.0" fitWidth="88.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Blackjack/imageedit_2_9526235446.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="82.0" layoutY="12.0" prefHeight="92.0" prefWidth="137.0" spacing="2.0">
+         <children>
+            <Label fx:id="user2" prefHeight="20.0" prefWidth="141.0" text="User" textFill="#f3e0b2">
+               <font>
+                  <Font name="AR JULIAN" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="money2" text="Credit" textFill="#f3e0b2">
+               <font>
+                  <Font name="AR JULIAN" size="18.0" />
+               </font>
+            </Label>
+         </children></VBox>
+      <ImageView fx:id="returnTo" fitHeight="39.0" fitWidth="157.0" layoutX="35.0" layoutY="713.0" onMouseClicked="#retrunView" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Blackjack/imageedit_4_8004435457.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrow3" fitHeight="148.0" fitWidth="161.0" layoutX="57.0" layoutY="562.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" rotate="-24.7">
+         <image>
+            <Image url="@../../images/Blackjack/arrowmirror.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="arrowText3" layoutX="116.0" layoutY="505.0" opacity="0.0" text="Return" textFill="#f3e0b2">
+         <font>
+            <Font name="AR JULIAN" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="times2" fitHeight="39.0" fitWidth="157.0" layoutX="1150.0" layoutY="713.0" onMouseClicked="#timesTwo" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Blackjack/imageedit_3_2778437990.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrow4" fitHeight="148.0" fitWidth="161.0" layoutX="963.0" layoutY="584.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" rotate="102.0">
+         <image>
+            <Image url="@../../images/Blackjack/arrow-orange.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="arrowText4" layoutX="542.0" layoutY="537.0" opacity="0.0" text="Double Money (You can only draw one card after that)" textFill="#f3e0b2">
+         <font>
+            <Font name="AR JULIAN" size="24.0" />
+         </font>
+      </Label>
+      
+         
+   </children>
+</AnchorPane>

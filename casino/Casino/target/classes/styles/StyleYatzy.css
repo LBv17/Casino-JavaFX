@@ -1,0 +1,13 @@
+.btnStart{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+
+}
+.btnHover{
+    -fx-border-radius: 30;
+    -fx-border-color: #99ccff;
+}
+.btnInvisible{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}

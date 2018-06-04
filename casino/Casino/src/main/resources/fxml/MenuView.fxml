@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="rootAnchor" prefHeight="490.0" prefWidth="610.0" stylesheets="@../styles/menuview.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.casino.bumchums.casino.controller.MenuViewController">
+   <children>
+      <Pane fx:id="dragPane" layoutX="77.0" onMouseDragReleased="#handlePaneDragReleased" onMouseDragged="#handlePaneMouseDragged" onMousePressed="#handlePanePressed" prefHeight="30.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ImageView fx:id="closeImageView" fitHeight="25.0" fitWidth="25.0" onMouseClicked="#handleCloseClicked" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@../images/close_white.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="minimizeImageView" fitHeight="25.0" fitWidth="25.0" layoutX="10.0" layoutY="10.0" onMouseClicked="#handleMinimizeClicked" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@../images/minimize_white.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="39.0" layoutY="31.0" styleClass="title" stylesheets="@../styles/menuview.css" text="Welcome" AnchorPane.bottomAnchor="420.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="40.0" />
+      <AnchorPane layoutX="71.0" layoutY="116.0" onMouseClicked="#showYatzyAction" prefHeight="150.0" prefWidth="150.0" styleClass="gameAnchor" AnchorPane.bottomAnchor="230.0" AnchorPane.leftAnchor="40.0">
+         <children>
+            <ImageView disable="true" fitHeight="124.0" fitWidth="130.0" layoutX="13.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/yatzyIcon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="58.0" layoutY="125.0" text="Yatzy" AnchorPane.bottomAnchor="10.0" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="40.0" layoutY="291.0" onMouseClicked="#showBingoAction" prefHeight="150.0" prefWidth="150.0" styleClass="gameAnchor" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="40.0">
+         <children>
+            <ImageView disable="true" fitHeight="117.0" fitWidth="118.0" layoutX="17.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/bingoIcon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="58.0" layoutY="123.0" text="Bingo" AnchorPane.bottomAnchor="10.0" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="221.0" layoutY="110.0" onMouseClicked="#showBlackjackAction" prefHeight="150.0" prefWidth="150.0" styleClass="gameAnchor" AnchorPane.bottomAnchor="230.0" AnchorPane.leftAnchor="230.0">
+         <children>
+            <ImageView disable="true" fitHeight="117.0" fitWidth="118.0" layoutX="15.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/blackJackIcon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="42.0" layoutY="119.0" text="Black Jack" AnchorPane.bottomAnchor="10.0" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="190.0" layoutY="285.0" prefHeight="150.0" prefWidth="150.0" styleClass="gameAnchor" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="230.0">
+         <children>
+            <ImageView fitHeight="117.0" fitWidth="118.0" layoutX="17.0" layoutY="17.0" onMouseClicked="#showSicBoAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/sicboIcon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="58.0" layoutY="123.0" text="Sic Bo" AnchorPane.bottomAnchor="10.0" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="400.0" layoutY="110.0" onMouseClicked="#showBaccaraAction" prefHeight="150.0" prefWidth="150.0" styleClass="gameAnchor" AnchorPane.bottomAnchor="230.0" AnchorPane.leftAnchor="420.0" AnchorPane.rightAnchor="40.0">
+         <children>
+            <ImageView disable="true" fitHeight="117.0" fitWidth="118.0" layoutX="18.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/baccaratIcon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="49.0" layoutY="119.0" text="Baccarat" AnchorPane.bottomAnchor="10.0" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="200.0" layoutY="295.0" prefHeight="150.0" prefWidth="150.0" styleClass="gameAnchor" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="40.0">
+         <children>
+            <ImageView fitHeight="84.0" fitWidth="103.0" layoutX="24.0" layoutY="29.0" onMouseClicked="#openSettings" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/settingsIcon_white.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="50.0" layoutY="128.0" onMouseClicked="#openSettings" text="Settings" AnchorPane.bottomAnchor="10.0" />
+         </children></AnchorPane>
+      <Label layoutX="322.0" layoutY="47.0" text="Account Balance" AnchorPane.rightAnchor="320.0" AnchorPane.topAnchor="47.0" />
+      <JFXButton fx:id="rechargeButton" layoutX="495.0" layoutY="42.0" onAction="#handleRechargeAction" text="Deposit" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="42.0" />
+      <Label fx:id="accountBalanceLabel" alignment="CENTER_RIGHT" layoutX="420.0" layoutY="47.0" text="999'999'999" textAlignment="RIGHT" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="47.0" />
+      <JFXButton fx:id="withdrawButton" layoutX="420.0" layoutY="42.0" onAction="#handleWithdrawAction" text="Withdraw" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="42.0" />
+   </children>
+</AnchorPane>

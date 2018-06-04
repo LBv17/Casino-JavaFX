@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="signUpAnchorPane" prefHeight="429.0" prefWidth="300.0" stylesheets="@../styles/signupview.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.casino.bumchums.casino.controller.SignUpViewController">
+   <children>
+      <JFXButton fx:id="continueButton" layoutX="113.0" layoutY="336.0" onAction="#handleContinueAction" text="Continue" AnchorPane.topAnchor="354.0" />
+      <JFXTextField fx:id="firstNameField" layoutX="75.0" layoutY="49.0" promptText="First Name" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="73.0" />
+      <JFXTextField fx:id="lastNameField" layoutX="75.0" layoutY="116.0" promptText="Last Name" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="120.0" />
+      <JFXTextField fx:id="emailField" layoutX="75.0" layoutY="173.0" promptText="Email *" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="167.0" />
+      <JFXPasswordField fx:id="passwordField" layoutX="75.0" layoutY="226.0" promptText="Password *" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="214.0" />
+      <JFXPasswordField fx:id="repPasswordField" layoutX="75.0" layoutY="282.0" promptText="Repeat Password *" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="261.0" />
+      <Label layoutX="104.0" layoutY="34.0" styleClass="title" text="Sign Up" AnchorPane.topAnchor="13.0" />
+      <Label layoutX="49.0" layoutY="334.0" text="Required fields are marked with *" AnchorPane.topAnchor="318.0" />
+      <Pane fx:id="dragPane" layoutX="50.0" layoutY="17.0" onMouseDragReleased="#handlePaneDragReleased" onMouseDragged="#handlePaneMouseDragged" onMousePressed="#handlePanePressed" prefHeight="30.0" prefWidth="200.0" AnchorPane.leftAnchor="-17.0" AnchorPane.rightAnchor="-17.0" AnchorPane.topAnchor="-17.0" />
+      <ImageView fx:id="closeImageView" fitHeight="25.0" fitWidth="25.0" layoutX="4.0" onMouseClicked="#handleCloseClicked" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-12.0" AnchorPane.topAnchor="-12.0">
+         <image>
+            <Image url="@../images/close_white.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

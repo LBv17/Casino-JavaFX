@@ -1,0 +1,69 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-color:  #389a48;
+}
+
+#rootAnchorPane {
+    -fx-background-color: #389a48;
+    
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    
+    -fx-effect: dropshadow(gaussian, rgba(30,30,30,0.6), 15, 0, 0, 5);
+}
+
+#signInAnchorPane {
+
+    -fx-background-color:  #009688;
+    
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(30,30,30,0.6), 15, 0, 0, 5);
+}
+
+.text {
+    -fx-fill: #FFFFFF;
+}
+
+.title {
+    -fx-font-size: 25px;
+}
+
+.button {
+    -fx-background-color: #FF5252;
+    -jfx-button-type: RAISED;
+    -fx-text-fill: white;
+    -jfx-disable-visual-focus: true;
+}
+
+.jfx-text-field, .jfx-password-field, .jfx-text-area {
+    
+    -jfx-focus-color: #FF5252;
+    -jfx-unfocus-color: #FFFFFF;
+    /*-fx-prompt-text-fill: #AAAAAA;*/
+    -fx-prompt-text-fill: rgba(255,255,255,0.5);
+    /*-fx-text-fill: #FF5252;*/
+    -fx-text-fill: #FFFFFF;
+    -fx-fill: #FFFFFF;
+}
+
+.jfx-combo-box {
+    -jfx-focus-color: #FFFFFF;
+    -fx-prompt-text-fill: rgba(255,255,255,0.5);
+    -fx-text-fill: #FF5252;
+    -fx-fill: #FF5252;
+}
+
+.jfx-combo-box .list-view,
+.jfx-combo-box .list-view .list-cell {
+    -fx-fill: #389a48;
+    -fx-background-color: #389a48;
+}
+
+.jfx-combo-box .arrow-button .arrow {
+    -fx-background-color: #FFFFFF;
+    -fx-fill: #FFFFFF;
+}
