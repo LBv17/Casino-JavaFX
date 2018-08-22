@@ -1,5 +1,7 @@
 # Casino Project
 
+The JavaFX Casino was a 3 week school project created by randomly selected group over 3 classes. I was responsible for the database connection to our MySQL database, the sign in / up and the general UI / UX of the casino. Additinally each group member had to design and program a game, I choose the game Sic Bo.
+
 <h3 style="color:rgb(225,95,95);">Important!</h3>
 
 * To open the whole project use any IDE that supports Maven & JavaFX.
